@@ -8,7 +8,7 @@ public class TestController {
 
     public static User user;
 
-    @GetMapping("")
+    @GetMapping("user")
     public String test() {
         user = new User();
         user.setName("SUCCESS");
